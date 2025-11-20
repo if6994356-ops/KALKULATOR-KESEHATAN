@@ -4,6 +4,7 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Kalkulator Kesehatan Pink</title>
+
 <style>
     body{
         font-family: 'Poppins', sans-serif;
@@ -11,6 +12,7 @@
         margin: 0;
         padding: 0;
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
         min-height: 100vh;
@@ -88,6 +90,17 @@
         width: 0%;
         border-radius: 10px;
     }
+
+    /* --- FOOTER --- */
+    footer{
+        margin-top: 25px;
+        text-align: center;
+        padding: 12px 0;
+        color: #ff4f9a;
+        font-weight: 600;
+        font-size: 14px;
+        opacity: 0.85;
+    }
 </style>
 </head>
 <body>
@@ -110,6 +123,11 @@
 </div>
 
 <audio id="doneSound" src="https://cdn.pixabay.com/download/audio/2022/03/15/audio_7b2f0be92f.mp3?filename=correct-2-46134.mp3"></audio>
+
+<footer>
+    Oleh Sintiya & Ukhti <br>
+    SMAN KABUH JOMBANG | 2025
+</footer>
 
 <script>
 function hitung(){
